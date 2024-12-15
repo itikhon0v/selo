@@ -112,8 +112,15 @@ Selo supports basic data types, making it intuitive for humans to use and easy f
 - **`boolean`**: `true` or `false`.
 - **`integer`**: Whole numbers, e.g., `42`. Underscores (`_`) can be used for readability, e.g., `1_000_000`.
 - **`float`**: Floating-point numbers, e.g., `3.14`. Supports scientific notation, e.g., `1.23e4`.
-- **`string`**: Includes quotes and escape sequences.
-- **`escape_sequences`**: Supports special characters like `\n` (newline), `\t` (tab), and Unicode (`\u{1F600}`).
+- **`string`**: Includes single and double quotes and escape sequences.
+  - **Escape Sequences**: 
+    - `\n` for **newline**.
+    - `\t` for **tab**.
+    - `\\` for a **backslash**.
+    - `\'` for a **single quote** (useful inside single-quoted strings).
+    - `\"` for a **double quote** (useful inside double-quoted strings).
+    - `\r` for **carriage return**.
+    - **Unicode**: Use `\u{XXXXX}` for Unicode characters, where `XXXXX` is the Unicode code point (e.g., `\u{1F914}` for 🤔).
 
 ### 3. Closest Value Wins
 
