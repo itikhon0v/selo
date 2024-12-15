@@ -19,9 +19,9 @@ Selo is currently in active development. Features and syntax may change as the p
     - [x] Syntax;
     - [x] Rules
     - [x] Guiding Principles
-  - [ ] Core components (In-progress):
-    - [x] Lexer
-    - [ ] AST (In-Progress)
+  - [ ] Core components (In-Progress):
+    - [ ] Lexer (In-Progress)
+    - [ ] AST
     - [ ] Parser
     - [ ] Serializer
     - [ ] Evaluator
@@ -110,10 +110,8 @@ Selo supports basic data types, making it intuitive for humans to use and easy f
 
 - **`nil`**: Represents undefined or missing values.
 - **`boolean`**: `true` or `false`.
-- **`integer`**: Whole numbers, e.g., `42`.
-- **`big_integer`**: Numbers with `_` for readability, e.g., `1_000_000`.
-- **`float`**: Floating-point numbers, e.g., `3.14`.
-- **`scientific_float`**: Scientific notation, e.g., `1.23e4`.
+- **`integer`**: Whole numbers, e.g., `42`. Underscores (`_`) can be used for readability, e.g., `1_000_000`.
+- **`float`**: Floating-point numbers, e.g., `3.14`. Supports scientific notation, e.g., `1.23e4`.
 - **`string`**: Includes quotes and escape sequences.
 - **`escape_sequences`**: Supports special characters like `\n` (newline), `\t` (tab), and Unicode (`\u{1F600}`).
 
