@@ -2,6 +2,14 @@
 
 **Selo** (noun): the outside, surface, outer layer, or boundary (e.g., skin, bark, peel, shell) — *Toki Pona*
 
+## Table of Contents
+- [Status: Active Development](#status-active-development)
+- [What is Selo?](#what-is-selo)
+- [Why Selo?](#why-selo)
+- [How to Selo?](#how-to-selo)
+- [Where to Selo?](#where-to-selo)
+- [License](#license)
+
 ## Status: Active Development
 
 Selo is currently in active development. Features and syntax may change as the project evolves. Key milestones are:
@@ -47,17 +55,17 @@ Selo aims to:
 - **Simplify configuration** management.
 - Enable **scalable setups** for complex use cases.
 
-## Core Principles
+### Core Principles
 
-### Simplicity
+#### Simplicity
 
 Minimal syntax with a single data structure: tables.
 
-### Clarity
+#### Clarity
 
 Predictable, readable, and concise configurations.
 
-### Security
+#### Security
 
 Scoped variables and immutability prevent unintended side effects.
 
@@ -98,7 +106,7 @@ nested = {
 
 ### 2. Language-Agnostic Data Types
 
-Selo supports basic data types, making it intuitive for humans to write and easy for machines to parse.
+Selo supports basic data types, making it intuitive for humans to use and easy for machines to parse.
 
 - **`nil`**: Represents undefined or missing values.
 - **`boolean`**: `true` or `false`.
