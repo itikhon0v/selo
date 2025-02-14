@@ -179,6 +179,35 @@ extended = {
 }
 ```
 
+### 5. Phantom Objects
+
+Phantom objects allow defining default values that do not appear in the final compiled configuration.
+
+```selo
+phantom default = {
+    login = "root",
+    pw = "toor"
+}
+
+config = {
+    default,
+    login = "pwn"
+}
+```
+
+After evaluation, default disappears, leaving:
+
+```json
+{
+    "config": {
+        "pw": "toor",
+        "login": "pwn"
+    }
+}
+```
+
+Phantom objects allow temporary values to exist only during AST evaluation, ensuring cleaner final configurations.
+
 ## Where to Selo?
 
 Selo might work as a perfect configuration language for various scenarios, such as server setups, application configuration, CI/CD pipeline management, and modular infrastructure design. For example, in server setups, Selo's inheritance feature allows you to define a base configuration for common settings and extend it for individual environments like production or staging:
