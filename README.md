@@ -25,19 +25,6 @@ Selo is currently in active development. Features and syntax may change as the p
     - [ ] Parser
     - [ ] Serializer
     - [ ] Evaluator
-- [ ] Stage II
-  - [ ] CLI
-    - [ ] Convert to/from JSON
-    - [ ] Optimize/Resolve Selo configs
-    - [ ] Check for errors
-  - [ ] LSP
-    - [ ] Diagnostics
-    - [ ] Auto completion
-    - [ ] Optimization/Resolution
-  - [ ] Bindings:
-    - [ ] Go
-    - [ ] Python
-    - [ ] JavaScript
 
 ## What is Selo?
 
